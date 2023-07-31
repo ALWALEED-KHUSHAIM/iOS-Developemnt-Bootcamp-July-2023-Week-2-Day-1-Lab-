@@ -30,6 +30,13 @@ struct ContentView: View {
                         .foregroundStyle(.black)
                     
                 }
+                var i :Int = 0
+                
+                Button("  +  frg" ,action: { i += 1})
+                Button("  -  ee" ,action: { i -= 1
+                    
+                })
+                Text( " \(i)")
             
             
             
